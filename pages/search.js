@@ -7,7 +7,7 @@ import Response from "../Response";
 function Search({ results }) {
   const router = useRouter();
   return (
-    <div className="main-color h-screen">
+    <div className="main-color h-full">
       <Head>
         <title>{router.query.term} - Google Search</title>
         <link rel="icon" href="/favicon.ico" />
