@@ -19,7 +19,7 @@ function SearchHeader() {
 
   return (
     <header className="sticky top-0 main-color">
-      <div className="flex w-full p-6 items-center">
+      <div className="flex w-full px-2 py-4 xsm:p-6 items-center">
         <Image
           src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           width={120}
@@ -27,7 +27,7 @@ function SearchHeader() {
           className="cursor-pointer"
           onClick={() => router.push("/")}
         />
-        <form className="flex flex-grow max-w-md px-6 py-3 ml-10 mr-4 rounded-full shadow-search sm:max-w-3xl items-center">
+        <form className="flex flex-grow max-w-xs  px-4 py-2 mx-3 xsm:max-w-md xsm:mx-4 xsm:px-6 xsm:py-3 xsm:ml-10 xsm:mr-4 rounded-full shadow-search sm:max-w-3xl items-center">
           <input
             type="text"
             ref={searchRef}

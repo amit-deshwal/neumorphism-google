@@ -26,7 +26,7 @@ export default function Home() {
       </Head>
 
       {/*Header*/}
-      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+      <header className="flex w-full px-2 py-5 xsm:p-5 justify-between text-sm text-gray-700">
         {/* Left */}
         <div className="flex space-x-4 items-center">
           <p className="link">About</p>
@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* Right */}
 
-        <div className="flex space-x-4 items-center">
+        <div className="flex pl-1 space-x-2 xsm:p-0 xsm:space-x-4 items-center">
           <p className="link">Gmail</p>
           <p className="link">Images</p>
           <ViewGridIcon className="h-9 w-9 p-2 bg-gray-200 rounded-full hover:bg-gray-300 cursor-pointer" />

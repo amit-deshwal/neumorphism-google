@@ -11,7 +11,7 @@ export default function SearchResults({ results }) {
         <div key={result.link} className="max-w-xl mb-8">
           <div className="group">
             <a href={result.link} className="text-sm" target="_blank">
-              {result.formattedUrl}
+              <p className="truncate">{result.formattedUrl}</p>
             </a>
             <a href={result.link} target="_blank">
               <h2 className="truncate text-xl text-blue-800 font-medium group-hover:underline">
