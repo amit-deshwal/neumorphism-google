@@ -1,6 +1,6 @@
 # Google Neumorphism Redesign 
 ## Deployed Site
-  [EasyBank Landing Page](https://neumorphism-google.vercel.app/ "Google Neumorphism Redesign")
+  [Google Neumorphism Redesign](https://neumorphism-google.vercel.app/ "Google Neumorphism Redesign")
 
 ## Requirements
 - The challenge was to redesign google using Neumorphism UI design using NextJs + Tailwind Css.
