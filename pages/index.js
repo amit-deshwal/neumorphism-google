@@ -44,7 +44,7 @@ export default function Home() {
       </header>
 
       {/*Body*/}
-      <form className="flex flex-col items-center mt-10 xsm:mt-44 flex-grow w-4/5">
+      <form className="flex flex-col items-center mt-10 xsm:mt-0 xsm:justify-center flex-grow w-4/5">
         <img
           src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
           className="h-16 xsm:h-20"
