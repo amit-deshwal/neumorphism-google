@@ -2,7 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html{
+  background-color: #ECF0F3;
+}
 @layer components {
   .btn {
     @apply bg-[#ECF0F3] p-3 pl-6 pr-6 shadow-search rounded-full text-gray-500 focus:outline-none hover:shadow-focus active:shadow-focus;

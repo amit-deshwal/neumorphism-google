@@ -27,7 +27,7 @@ function SearchHeader() {
           className="cursor-pointer"
           onClick={() => router.push("/")}
         />
-        <form className="flex flex-grow max-w-xs  px-4 py-2 mx-3 xsm:max-w-md xsm:mx-4 xsm:px-6 xsm:py-3 xsm:ml-10 xsm:mr-4 rounded-full shadow-search sm:max-w-3xl items-center">
+        <form className="flex flex-grow max-w-xs px-4 py-2 mx-3 xsm:max-w-md xsm:mx-4 xsm:px-6 xsm:py-3 xsm:ml-10 xsm:mr-4 rounded-full shadow-input hover:shadow-input_f focus-within:shadow-input_f sm:max-w-3xl items-center">
           <input
             type="text"
             ref={searchRef}
